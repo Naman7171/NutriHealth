@@ -1,5 +1,5 @@
 
-# 🛍️ Health Supplements E-Commerce Platform
+# 🛍️ NutriHealth E-Commerce Platform
 
 A modern full-stack e-commerce web application for browsing, purchasing, and managing health supplement products. Built with a React frontend and an Express + MongoDB backend, the project is designed with 2025 UI/UX standards, mobile responsiveness, and accessibility in mind.
 
