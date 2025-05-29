@@ -1,0 +1,29 @@
+
+:root {
+  --navbar-height: 50px;
+}
+
+@media (min-width: 768px) {
+  :root {
+    --navbar-height: 60px;
+  }
+}
+
+.navbar-container {
+  height: var(--navbar-height);
+}
+
+/* Add this to the global body to provide space for the fixed navbar */
+body {
+  padding-top: var(--navbar-height);
+}
+
+/* Add additional space specifically for the main content */
+main {
+  padding-top: 1rem;
+}
+
+/* Add this to ensure pages like ProductsPage have proper spacing */
+.container {
+  padding-top: 0.5rem;
+}
